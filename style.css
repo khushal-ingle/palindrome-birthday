@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+:root{
+  --white:#FDFBF9;
+}
+
+body {
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    height: 100vh;
+    width:100vw;
+    background-color: rgb(29, 35, 51);
+    color: var(--white);
+    
+    font-size: large;
+    color:var(--white);
+    background-image: url("image/birthday.jpg");
+    background-size: cover;
+  }
+  h1{
+    letter-spacing: 2px;
+    margin-top: 16%;
+  }
+  
+   main {
+    border: 2px solid var(--white);
+    text-align: center;
+    height: 100%;
+  }
+  
+  div {
+    padding: 2rem;
+    text-align: left;
+    font-size: large;
+
+  } 
+  input{
+    padding: 1rem;
+    width: 200px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: var(--white);
+    text-align: center;
+    font-size: large;
+    border-bottom: 2px solid var(--white);
+  }
+  button{
+    margin: 1rem auto;
+    padding: 0.7rem 4rem;
+    display: block;
+    background: darkblue;
+    color:var(--white);
+    border-radius: 10px;
+  }
+  #result{
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 2px;
+  }
